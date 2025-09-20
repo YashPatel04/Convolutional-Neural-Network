@@ -43,7 +43,7 @@ The model is a **CNN**, consisting of the following layers:
    - Converts 2D feature maps into a 1D vector.  
 
 9. **Dense Layers**  
-   - 128 → 128 → 100 → 80 → 40 neurons (ReLU)  
+   - 128 → 100 → 80 → 40 neurons (ReLU)  
    - Fully connected layers for feature combination.  
 
 10. **Dense (10, Softmax)**  
